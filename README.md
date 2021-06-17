@@ -1,10 +1,10 @@
 [![Build Status](https://travis-ci.com/paynow/Paynow-NodeJS-SDK.svg?branch=master)](https://travis-ci.com/paynow/Paynow-NodeJS-SDK)
 
 
-# Node.JS SDK for Paynow Zimbabwe's API
+# QPAY
 
 ## Sign in to Paynow and get integration details
-# My name is Allen Chinodakufa, and I am a full-stack developer.
+### My name is Allen Chinodakufa, and I am a full-stack developer. I studied the backend of the paynow SDK and saw a number of errors. This is a working SDK for IONIC AND REACT developers. If you have any errors with installation contact me at [WhatsApp](tel://+263771899951).
 > Before you can start making requests to Paynow's API, you need to get an integration ID and integration Key from Paynow. 
 See Documentation [Generating Integration Key and Viewing integration ID](https://developers.paynow.co.zw/docs/integration_generation.html)
 
@@ -25,13 +25,13 @@ This library has a set of prerequisites that must be met for it to work
 Install the library using NPM or yarn
 
 ```sh
-$ npm install --save paynow
+$ npm install --save QPay
 ```
 ```sh
 $ npm install js-sha512
 ```
 ```sh
-$ yarn add paynow
+$ yarn add QPay
 ```
 
 ## Usage example
@@ -39,7 +39,7 @@ $ yarn add paynow
 ### Importing library
 
 ```Typescript
-import { Paynow } from 'paynow';
+import { Paynow } from 'Qpay';
 ```
 
 Create an instance of the Paynow class optionally setting the result and return url(s)
