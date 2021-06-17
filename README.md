@@ -88,7 +88,7 @@ The response object is almost identical to the one you get if you send a normal 
 
 ```TYPESCRIPT
 
-paynow.sendMobile(payment, 'phone number', 'ecocash').then((response: any) => {
+paynow.sendMobile(payment, '0777000000', 'ecocash').then((response: any) => {
   console.log(response);
 
   if (response.success) {
@@ -134,7 +134,7 @@ const payment = paynow.createPayment('Invoice 35', 'email');
 payment.add("Bananas", 2.5);
 payment.add("Apples", 3.4);
 
-paynow.sendMobile(payment, 'phone number', 'ecocash').then((response: any) => {
+paynow.sendMobile(payment, '0777000000', 'ecocash').then((response: any) => {
   console.log(response);
 
   if (response.success) {
