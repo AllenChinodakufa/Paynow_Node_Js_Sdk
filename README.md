@@ -1,6 +1,6 @@
-# ![Image of QPAY By Allen Chinodakufa](https://cdn.dribbble.com/users/7152731/avatars/normal/0f5b6cafca9dec544e84cbc984e51c53.png?1614270459) QPAY
+![Image of QPAY By Allen Chinodakufa](https://cdn.dribbble.com/users/7152731/avatars/normal/0f5b6cafca9dec544e84cbc984e51c53.png?1614270459) # QPAY
 ## Sign in to Paynow and get integration details
-#### My name is Allen Chinodakufa, and I am a full-stack developer. I studied the backend of the Paynow Node JS SDK and saw several errors. I removed the majority of these errors, but there are a few I need help from. SDK for IONIC AND REACT developers. If you have any errors with installation contact me at [WhatsApp](tel://+263771899951).
+#### My name is Allen Chinodakufa, and I am a full-stack developer. I studied the backend of the Paynow Node JS SDK and saw several errors. I removed the majority of these errors, but there are a few I need help from. SDK for IONIC AND REACT developers. If you have any errors with installation contact me at [WhatsApp](tel:+263771899951).
 > Before you can start making requests to Paynow's API, you need to get an integration ID and integration Key from Paynow. 
 See Documentation [Generating Integration Key and Viewing integration ID](https://developers.paynow.co.zw/docs/integration_generation.html)
 
