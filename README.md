@@ -155,5 +155,5 @@ paynow.sendMobile(payment, '0777000000', 'ecocash').then((response: any) => {
 
 ## Development 
 
-Like this, if you found it helpful or follow me, it takes 1/10 nth of a second to do so, 
-Honestly, you won't die, just click that button
+_**Like this :point_up: , if you found it helpful or follow me, it takes 1/10 nth of a second to do so, 
+Honestly, you won't die, just click that button**_
