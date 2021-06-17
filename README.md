@@ -26,8 +26,10 @@ Install the library using NPM or yarn
 
 ```sh
 $ npm install --save paynow
+```
 ```sh
 $ npm install js-sha512
+```
 ```sh
 $ yarn add paynow
 ```
@@ -112,7 +114,7 @@ paynow.sendMobile(payment, 'phone number', 'ecocash').then((response: any) => {
 
 ## Full Usage Example
 
-```TYPESCHRIPT
+```TYPESCRIPT
 
 import { Paynow } from 'paynow';
 // Set return and result urls
