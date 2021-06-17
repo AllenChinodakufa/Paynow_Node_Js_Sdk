@@ -115,8 +115,8 @@ paynow.sendMobile(payment, 'phone number', 'ecocash').then((response: any) => {
 ## Full Usage Example
 
 ```TYPESCRIPT
-// import paynow
-import { Paynow } from 'paynow';
+// import QPay
+import { Paynow } from 'QPay';
 
 
 
