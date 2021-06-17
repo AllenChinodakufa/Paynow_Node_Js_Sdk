@@ -115,25 +115,26 @@ paynow.sendMobile(payment, 'phone number', 'ecocash').then((response: any) => {
 ## Full Usage Example
 
 ```TYPESCRIPT
-
+// import paynow
 import { Paynow } from 'paynow';
+
+
+
 // Set return and result urls
 const resultUrl = 'http://example.com/gateways/paynow/update';
 const returnUrl = 'http://example.com/return?gateway=paynow&merchantReference=1234';
 
 // Create instance of Paynow class
-const paynow = new Paynow('12096', '9bc043fc-6344-4145-94b9-c0659a9b0fa3', resultUrl, returnUrl);
+const paynow = new Paynow("INTEGRATION_ID", "INTEGRATION_KEY", resultUrl, returnUrl);
 
 // Create a new payment
-const payment = paynow.createPayment('Invoice 35', 'allenchinodakufa7@gmail.com');
+const payment = paynow.createPayment('Invoice 35', 'email');
 
-// Add items to the payment list passing in the name of the item and it's price
-this.items.forEach((element: any) => {
-  const item = parseFloat((element.quantity * element.price).toFixed(1));
-  payment.add(`${element.title}`, item);
-});
+// Passing in the name of the item and the price of the item
+payment.add("Bananas", 2.5);
+payment.add("Apples", 3.4);
 
-paynow.sendMobile(payment, '0771899951', 'ecocash').then((response: any) => {
+paynow.sendMobile(payment, 'phone number', 'ecocash').then((response: any) => {
   console.log(response);
 
   if (response.success) {
